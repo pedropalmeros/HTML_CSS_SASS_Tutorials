@@ -1,0 +1,34 @@
+/*
+EN ESTE CONTEXTO ES NECESARIO PONER LOS MEDIA-QUERY
+del más pequeño al mas grande
+*/
+
+/*FOR SMALL SCREENS*/
+.oferta{
+	background-color:  #00446e;
+	padding:  2rem;
+	text-align: center;
+}
+
+.precio{
+	font-size: 4rem;
+	margin: 0;
+}
+
+/* FOR MEDIUM SIZE SCREEN */
+@media(min-width:600px){
+	.oferta{
+		max-width: 40rem; 
+		margin: 0 auto;
+	}
+	.precio{
+		font-size: 2rem;
+	}
+}
+
+/* FOR BIG SCREENS SIZE */
+@media(min-width:800px){
+	.oferta{
+		max-width: 60rem;
+	}
+}
